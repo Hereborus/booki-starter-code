@@ -58,6 +58,24 @@ a {
     color: var(--main-bg-color)
 }
 
+/****** Header ********/
+
+
+
+
+
+
+
+/***** Nav ******/
+
+
+
+
+
+
+
+
+
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
     display: flex;
@@ -168,6 +186,18 @@ a {
 .populaires-cards .card-rating {
     margin-bottom: 5px;
 }
+
+/***** footer *********/
+
+
+
+
+
+
+
+
+
+
 
 
 
