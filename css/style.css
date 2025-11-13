@@ -1,12 +1,12 @@
 /****** General ***********/
 * {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
 }
 
 :root {
-    --main-color: #0065FC;
-    --main-bg-color: #F2F2F2;
-    --filter-bg-color: #DEEBFF;
+    --main-color: #0065fc;
+    --main-bg-color: #f2f2f2;
+    --filter-bg-color: #deebff;
 }
 
 .fa-solid {
@@ -21,7 +21,7 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
+    padding: 0 20px;
     box-sizing: border-box;
 }
 
@@ -55,19 +55,88 @@ a {
 }
 
 .neutral-star {
-    color: var(--main-bg-color)
+    color: var(--main-bg-color);
 }
 
 /****** Header ********/
+header {
+    display: flex;
+    justify-content: space-between;
+}
 
+#logo_header {
+    max-width: 61px;
+    max-height: 20px;
+    margin: 30px 50px;
+}
 
+.quick-section-nav {
+    display: flex;
+    align-items: right;
+    gap: 58px;
+}
 
+.quick-section-nav a {
+    padding-top: 14px;
+}
 
-
-
+.quick-section-nav a:hover {
+    border-top: 3px solid var(--main-color);
+    color: var(--main-color);
+}
 
 /***** Nav ******/
 
+/****** title ********/
+.nav_and_filter {
+    display: block;
+    margin-bottom: 35px;
+    justify-content: space-between;
+}
+
+.div_title {
+    margin-bottom: 35px;
+}
+
+.title_txt {
+    margin: 8px;
+}
+
+/***** search bar ******/
+
+.search_bar_div {
+    display: flex;
+    flex-direction: row;
+}
+
+.location_dot {
+    border-radius: 15px 0px 0px 15px;
+    background-color: #d9d9d9;
+    border: none;
+    height: 49px;
+    width: 50px;
+}
+
+.loc_dot {
+    color: #000000;
+    height: 18px;
+    width: 14px;
+}
+/********************  a regarder de plus pret */
+/* 
+
+
+
+
+
+
+*/
+#search_bar {
+    border: none;
+    border-color: #d9d9d9;
+    height: 47px;
+}
+/* 
 
 
 
@@ -76,7 +145,19 @@ a {
 
 
 
+
+*/
+
+.search_btn {
+    border-radius: 0px 15px 15px 0px;
+    background-color: var(--main-color);
+    border: none;
+    height: 49px;
+    width: 132px;
+    color: white;
+}
 /****** Hebergements And Populaires ***********/
+
 .hebergements-and-populaires {
     display: flex;
     justify-content: space-between;
@@ -97,6 +178,7 @@ a {
 .row {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 .hebergements-title {
@@ -107,9 +189,8 @@ a {
 
 .hebergements-cards .card {
     display: flex;
-    margin-top: 33px;
+    margin-top: 30px;
     flex-direction: column;
-
 }
 
 .hebergements-cards img {
@@ -121,8 +202,7 @@ a {
 }
 
 .hebergements-cards .card-content {
-    width: 67%;
-    padding-left: 15px;
+    width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -155,7 +235,7 @@ a {
 
 .populaires-cards .card {
     display: flex;
-    margin-top: 33px;
+    margin-top: 30px;
 }
 
 .populaires-cards img {
@@ -188,19 +268,6 @@ a {
 }
 
 /***** footer *********/
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
