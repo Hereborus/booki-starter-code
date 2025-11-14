@@ -104,16 +104,17 @@ header {
 
 /***** search bar ******/
 
-.search_bar_div {
+#search_bar_div {
     display: flex;
-    flex-direction: row;
+    justify-content: inline;
+    height: 49px;
 }
 
 .location_dot {
     border-radius: 15px 0px 0px 15px;
     background-color: #d9d9d9;
     border: none;
-    height: 49px;
+
     width: 50px;
 }
 
@@ -122,40 +123,25 @@ header {
     height: 18px;
     width: 14px;
 }
-/********************  a regarder de plus pret */
-/* 
 
-
-
-
-
-
-*/
 #search_bar {
     border: none;
-    border-color: #d9d9d9;
-    height: 47px;
+    height: 45px;
+    border-bottom: 1px solid #d9d9d9;
+    border-top: 1px solid #d9d9d9;
+
 }
-/* 
-
-
-
-
-
-
-
-
-
-*/
 
 .search_btn {
     border-radius: 0px 15px 15px 0px;
     background-color: var(--main-color);
     border: none;
-    height: 49px;
+
     width: 132px;
     color: white;
 }
+
+
 /****** Hebergements And Populaires ***********/
 
 .hebergements-and-populaires {
