@@ -114,7 +114,7 @@ header {
     border-radius: 15px 0px 0px 15px;
     background-color: #d9d9d9;
     border: none;
-
+    cursor: pointer;
     width: 50px;
 }
 
@@ -136,10 +136,33 @@ header {
     border-radius: 0px 15px 15px 0px;
     background-color: var(--main-color);
     border: none;
-
+    cursor: pointer;
     width: 132px;
     color: white;
 }
+
+/************* filter  *****************/
+
+#nav_filter {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    height: 50px;
+}
+
+#nav_filter button {
+    border-radius: 25px;
+    border: 2px solid #d9d9d9;
+    background-color: none;
+    cursor: pointer;
+}
+
+#txt_filter {
+    margin-top: 14.5px;
+}
+
 
 
 /****** Hebergements And Populaires ***********/
@@ -253,7 +276,42 @@ header {
     margin-bottom: 5px;
 }
 
+/*********** activites ******************/
+
+#activites {
+    padding: 30px;
+}
+
+.activites h2 {
+    margin-bottom: 30px;
+}
+
+.activites_card_div {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.act_card {
+    padding: none;
+    box-shadow: 0px 3px 15px 0px #0000001A;
+    border-radius: 20px;
+}
+
+.activites img {
+    width: 297.5px;
+    height: 380px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.act_card h3 {
+    margin-left: 19px;
+}
+
 /***** footer *********/
+
+
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
