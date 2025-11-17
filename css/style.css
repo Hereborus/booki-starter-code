@@ -157,6 +157,9 @@ header {
     background-color: none;
     cursor: pointer;
     padding: 14px 19px;
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .icon_btn {
@@ -165,6 +168,7 @@ header {
 
 #txt_filter {
     margin-top: 14.5px;
+    align-content: center;
 }
 
 #nav_filter button:hover {
