@@ -25,7 +25,7 @@
                 <div class="logo-div">
                     <!-- logo -->
                     <img
-                        src="/images/logo/Booki.png"
+                        src="images/logo/Booki.png"
                         alt="logo_Booki"
                         id="logo_header" />
                 </div>
@@ -47,23 +47,25 @@
                         </p>
                     </div>
                     <!-- div search bar -->
-                    <div id="search_bar_div">
-                        <button class="location_dot">
-                            <!-- i for icon in font awsome  -->
-                            <i class="fa-solid fa-location-dot loc_dot"></i>
-                        </button>
-                        <form method="get" action="#">
+                    <form method="get" action="#">
+                        <div id="search_bar_div">
+                            <button class="location_dot">
+                                <!-- i for icon in font awsome  -->
+                                <i class="fa-solid fa-location-dot loc_dot"></i>
+                            </button>
                             <input
                                 type="text"
                                 id="search_bar"
                                 placeholder="Rechercher une ville" />
-                        </form>
-                        <button class="search_btn">
-                            <i
-                                class="fa-solid fa-magnifying-glass search_icon"></i>
-                            Rechercher
-                        </button>
-                    </div>
+                            <button class="search_btn">
+                                <i
+                                    class="fa-solid fa-magnifying-glass search_icon"></i
+                                ><span class="search_button_txt">
+                                    Rechercher</span
+                                >
+                            </button>
+                        </div>
+                    </form>
                     <!-- div filter -->
                     <div id="nav_filter">
                         <h3 id="txt_filter">Filter</h3>
@@ -88,8 +90,8 @@
                         </div>
                     </div>
                     <!-- div txt search result -->
-                    <div>
-                        <i class="fa-solid fa-info"></i>
+                    <div class="info_row">
+                        <i class="fa-solid fa-info info_icon"></i>
                         <!-- txt place holder -> view to push a count interactive -->
                         <span class="search_result_txt">
                             plus de 500 logement dans cette ville
@@ -100,7 +102,7 @@
                     <!-- section for the first block with hebergement and popular -->
                     <section class="hebergements" id="hebergements">
                         <div class="hebergements-title">
-                            <h1>Hébergements à Marseille</h1>
+                            <h2>Hébergements à Marseille</h2>
                         </div>
                         <div class="hebergements-cards">
                             <div class="row">
@@ -108,7 +110,7 @@
                                 <a href="#">
                                     <article class="card">
                                         <img
-                                            src="/images/hebergements/fred-kleber.jpg"
+                                            src="images/hebergements/fred-kleber.jpg"
                                             alt="herbergement_1" />
                                         <div class="card-content">
                                             <div class="card-txt">
@@ -139,7 +141,7 @@
                                 <a href="#">
                                     <article class="card">
                                         <img
-                                            src="/images/hebergements/febrian-zakaria.jpg"
+                                            src="images/hebergements/febrian-zakaria.jpg"
                                             alt="herbergement_2" />
                                         <div class="card-content">
                                             <div class="card-txt">
@@ -170,7 +172,7 @@
                                 <a href="#">
                                     <article class="card">
                                         <img
-                                            src="/images/hebergements/reisetopia.jpg"
+                                            src="images/hebergements/reisetopia.jpg"
                                             alt="herbergement_3" />
                                         <div class="card-content">
                                             <div class="card-txt">
@@ -204,7 +206,7 @@
                                 <a href="#">
                                     <article class="card">
                                         <img
-                                            src="/images/hebergements/annie-spratt.jpg"
+                                            src="images/hebergements/annie-spratt.jpg"
                                             alt="herbergement_4" />
                                         <div class="card-content">
                                             <div class="card-txt">
@@ -235,7 +237,7 @@
                                 <a href="#">
                                     <article class="card">
                                         <img
-                                            src="/images/hebergements/marcus-loke.jpg"
+                                            src="images/hebergements/marcus-loke.jpg"
                                             alt="herbergement_5" />
                                         <div class="card-content">
                                             <div class="card-txt">
@@ -266,7 +268,7 @@
                                 <a href="#">
                                     <article class="card">
                                         <img
-                                            src="/images/hebergements/nicate-lee.jpg"
+                                            src="images/hebergements/nicate-lee.jpg"
                                             alt="herbergement_6" />
                                         <div class="card-content">
                                             <div class="card-txt">
@@ -310,7 +312,7 @@
                             <a href="#">
                                 <article class="card">
                                     <img
-                                        src="./images/hebergements/emile-guillemot.jpg"
+                                        src="images/hebergements/emile-guillemot.jpg"
                                         alt="Image de la chambre d'hôtel montrant un lit" />
                                     <div class="card-content">
                                         <div class="card-txt">
@@ -350,7 +352,7 @@
                             <a href="#">
                                 <article class="card">
                                     <img
-                                        src="./images/hebergements/aw-creative.jpg"
+                                        src="images/hebergements/aw-creative.jpg"
                                         alt="Image de la chambre d'hôtel montrant un lit" />
                                     <div class="card-content">
                                         <div class="card-txt">
@@ -391,7 +393,7 @@
                             <a href="#">
                                 <article class="card">
                                     <img
-                                        src="./images/hebergements/febrian-zakaria2.jpg"
+                                        src="images/hebergements/febrian-zakaria2.jpg"
                                         alt="Image de la chambre d'hôtel montrant un lit" />
                                     <div class="card-content">
                                         <div class="card-txt">
@@ -440,7 +442,7 @@
                                 <article class="act_card">
                                     <img
                                         class="img_activites"
-                                        src="/images/activites/reno-laithienne.jpg"
+                                        src="images/activites/reno-laithienne.jpg"
                                         alt="activiter_1" />
                                     <div class="acti_title">
                                         <h3 class="card-title">Vieux-Port</h3>
@@ -477,7 +479,7 @@
                                 <article class="act_card">
                                     <img
                                         class="img_activites"
-                                        src="/images/activites/florian-wehde.jpg"
+                                        src="images/activites/florian-wehde.jpg"
                                         alt="activiter_4" />
                                     <div class="acti_title">
                                         <h3 class="card-title">
