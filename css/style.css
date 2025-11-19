@@ -71,15 +71,23 @@ header {
     margin: 30px 50px;
 }
 
-/***** Nav ******/
+
+
+/*****  header quick Nav ******/
 .quick-section-nav {
     display: flex;
     gap: 58px;
 }
 
+.quick-section-nav a {
+    padding-top: 15px;
+    position: static;
+}
+
 .quick-section-nav a:hover {
-    border-top: 3px solid var(--main-color);
+    border-top: 2px solid var(--main-color);
     color: var(--main-color);
+    padding-top: 13px;
 }
 
 /****** title ********/
@@ -123,6 +131,7 @@ header {
     height: 45px;
     border-bottom: 1px solid #d9d9d9;
     border-top: 1px solid #d9d9d9;
+    padding-left: 15px;
 }
 
 .search_icon {
@@ -443,9 +452,13 @@ header {
         padding-bottom: 17px;
     }
 
+    .quick-section-nav a {
+        border-bottom: 2px solid #d9d9d9
+    }
+
     .quick-section-nav a:hover {
+        border-bottom: 2px solid var(--main-color);
         border-top: none;
-        border-bottom: 3px solid var(--main-color);
     }
     /* search bar */
     #search_bar_div {
