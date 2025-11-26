@@ -55,6 +55,10 @@ a {
     height: 100%;
 }
 
+.card-subtitle {
+    font-size: 14px;
+}
+
 .card img {
     object-fit: cover;
 }
@@ -440,7 +444,7 @@ header {
 .footer a {
     margin: 0px;
     padding-bottom: 15px;
-    font-size: 19px;
+    font-size: 16px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
