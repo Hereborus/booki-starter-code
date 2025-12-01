@@ -597,9 +597,15 @@ header {
         flex-direction: column;
     }
 
+    .filter_btn {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
     /* dimention of button */
     #nav_filter button {
-        width: 48%;
+        width: 47%;
     }
 
     /* hebergements and populaires */
